@@ -1,6 +1,6 @@
 en:
   app:
-    description: "Follow all the members of a Twitter list with a single click"
+    description: "Follow all the members of Transparency Camp's Twitter lists with a single click"
     name: "Follow All"
     org: "Code for America"
   button:
