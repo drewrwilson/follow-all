@@ -1,4 +1,6 @@
 .container
   %footer
+    .text-center
+      = link_to(image_tag(t('misc.logo'), alt: t('misc.logo_alt_text')), t('misc.logo_url'))
     %p
       = "&copy; #{Date.today.year} #{t('app.org')}.".html_safe

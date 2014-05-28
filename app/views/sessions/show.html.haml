@@ -1,5 +1,13 @@
 .row
   .span12
+    %h1
+      What's this?
+    %p
+      = t('misc.desc')
+    .text-center
+      = link_to(image_tag(t('misc.logo2'), alt: t('misc.logo2_alt_text')), t('misc.logo2_url'))
+.row
+  .span12
     - if @new_friends && @new_friends.size > 0
       %ul.thumbnails
         - @new_friends.each do |friend|

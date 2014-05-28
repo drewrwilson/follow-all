@@ -13,4 +13,13 @@ en:
     build_status: "Build Status"
     dependency_status: "Dependency Status"
     source_code: "Source Code"
+    conference_site: "Conference Site"
     sash: "Fork me on GitHub"
+  misc:
+    desc: "Transparency Camp is the Sunlight Foundation's annual conference happening in DC on Friday May 30 & Saturday May 31, 2014. There are a lot of incredible people from the civic tech movement who will be participating. Interested in keeping up with all them? Use this tool to follow all attendees who have shared their twitter usernames with the organizers."
+    logo: "sunlight-logo.png"
+    logo_alt_text: "Sunlight Foundation"
+    logo_url: "http://www.sunlightfoundation.com"
+    logo2: "transparency-logo.svg"
+    logo2_alt_text: "TCamp 2014"
+    logo2_url: "http://transparencycamp.org"
