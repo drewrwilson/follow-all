@@ -1,4 +1,4 @@
-# Follow All
+# Code for America's Follow All App forked for Transparency Camp 2014
 
 [![Build Status](http://img.shields.io/travis/codeforamerica/follow-all.svg)][travis]
 [![Dependency Status](http://img.shields.io/gemnasium/codeforamerica/follow-all.svg)][gemnasium]
@@ -10,16 +10,18 @@
 
 Follow All allows you to select a Twitter list and follow all of its members.
 
+Originally made by [https://github.com/sferik][Erik Michaels Ober] forked by [https://github.com/codesliced][Anna-Marie] and [https://github.com/drewrwilson][Drew]
+
 ## Screenshot
 ![Follow All](https://github.com/codeforamerica/follow-all/raw/master/screenshot.png "Follow All")
 
 ## Demo
 You can see a running version of the application at
-[http://follow-all.herokuapp.com][demo].
+[http://follow-all-tcampdc.herokuapp.com/][demo].
 
 [demo]: http://follow-all.herokuapp.com
 
-## Installation
+## Installation from source repo
     git clone git://github.com/codeforamerica/follow-all.git
     cd follow-all
     bundle install
