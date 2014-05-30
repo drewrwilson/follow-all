@@ -10,14 +10,15 @@ class User
       num_attempts += 1
       @client.follow(users_to_follow)
     rescue Twitter::Error::TooManyRequests => error
-      if num_attempts <= 3
-        sleep error.rate_limit.reset_in
+      if num_attempts % 3 == 0
+        #sleep error.rate_limit.reset_in
+        sleep (15*60)
         retry
       else
-        raise
+        retry
       end
     rescue Twitter::Error
-      sleep 1
+      sleep 3
       retry
     end
   end
