@@ -18,7 +18,7 @@ class User
         retry
       end
     rescue Twitter::Error
-      sleep 3
+      sleep 5
       retry
     end
   end
